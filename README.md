@@ -1,50 +1,52 @@
-# TheScrapper
 
-TheScrapper is a versatile web scraping tool designed to extract emails, phone numbers, and social media accounts from websites. You can use the gathered information for various purposes, such as further research or contacting the website's owners.
 
-## Installation & Setup
+# 🛠️ ScrapeMaster Pro
 
-To get started with TheScrapper, follow these simple installation steps:
+ScrapeMaster Pro is your ultimate web scraping tool, crafted to effortlessly extract emails, phone numbers, and social media accounts from websites. Use the gathered data for research or direct contact with site owners.
 
-1. Clone the repository:
+## 📦 Installation & Setup
 
-```bash
-git clone https://github.com/champmq/TheScrapper.git
-```
+Get started with ScrapeMaster Pro by following these easy steps:
 
-2. Change the directory:
+1. **Clone the repository:**
 
-```bash
-cd TheScrapper
-```
+   ```bash
+   git clone https://github.com/champmq/TheScrapper.git
+   ```
 
-3. Install all the requirements:
+2. **Navigate to the directory:**
 
-```bash
-pip3 install -r requirements.txt
-```
+   ```bash
+   cd TheScrapper
+   ```
 
-## Usage
+3. **Install the dependencies:**
 
-TheScrapper offers several usage options:
+   ```bash
+   pip3 install -r requirements.txt
+   ```
 
-- Simple scan:
+## 🚀 Usage
 
-```bash
-python3 TheScrapper.py --url URL
-```
+ScrapeMaster Pro offers several usage options:
 
-- Scan and crawl found URLs:
+1. **Simple scan:**
 
-```bash
-python3 TheScrapper.py --url URL --crawl
-```
+   ```bash
+   python3 TheScrapper.py --url URL
+   ```
 
-- Retrieve more informaton about found social media accounts:
+2. **Scan and crawl found URLs:**
 
-```bash
-python3 TheScrapper.py --url URL -s
-```
+   ```bash
+   python3 TheScrapper.py --url URL --crawl
+   ```
+
+3. **Retrieve detailed info about found social media accounts:**
+
+   ```bash
+   python3 TheScrapper.py --url URL -s
+   ```
 
 For additional command-line arguments and options, refer to the help menu:
 
@@ -52,14 +54,13 @@ For additional command-line arguments and options, refer to the help menu:
 python3 TheScrapper.py -h
 ```
 
-To remove the banner, simply add the "-b" flag.
+To remove the banner, simply add the `-b` flag.
 
-## Adding More Social Media Sites
+## ➕ Adding More Social Media Sites
 
-If you wish to add more social media sites for scraping. You can do so by appending them to the `socials.txt` file. Feel free to contribute by submtting a pull request if you'd like to share your additions with the community.
+To add more social media sites for scraping, append them to the `socials.txt` file. Feel free to contribute by submitting a pull request to share your additions with the community.
 
-## Known Problems
+## ⚠️ Known Issues
 
-When using a website that is alreadt included in the `socials.txt` file, the `--sm` flag may produce less useful output. To avoid this, consider excluding such URLs or refraining from using the `--sm` flag.
+When using a website already included in the `socials.txt` file, the `--sm` flag may produce less useful output. To avoid this, consider excluding such URLs or refraining from using the `--sm` flag.
 
-### LICENSE - [GNU](LICENSE)
